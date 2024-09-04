@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-color: #1cada682;
+
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    min-height: 38vh;
+    min-width: 40vh;
+    border-radius: 21px;
+
+}
+
+.amount {
+    margin: 22px 0px
+}
+
+.amount input {
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 378px; */
+    margin: 38px 0px;
+
+}
+
+button {
+    background-color: #b33eb3;
+    color: white;
+    padding: 8px 25%;
+    border-radius: 8px;
+    /* justify-content: center; */
+    width: 100%;
+    margin: 27px 0px;
+    /* display: flex; */
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+}
+
+.select-container img {
+    height: 42px;
+}
+
+.select-container select {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+
+@media screen and (max-width: 470px) {
+
+.container{
+    
+    min-width: 28vh;
+
+}
+
+}
